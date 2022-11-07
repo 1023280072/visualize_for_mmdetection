@@ -9,3 +9,6 @@ python visualize.py path/to/your/json
 # Result
 ![image](example/20220601_092959.log.json_loss.png)
 ![image](example/20220601_092959.log.json_map.png)
+
+# Based on
+https://github.com/xiaoyu1233/mmdetection2.0_visualize
