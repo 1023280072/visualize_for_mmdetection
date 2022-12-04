@@ -16,7 +16,7 @@ python visualize_yolact.py
 
 # Results
 ## mask_rcnn
-![image](https://github.com/1023280072/visualize_for_mmdetection/blob/main/examples/mask_rcnn.json_loss111.png)
+![image](https://github.com/1023280072/visualize_for_mmdetection/blob/main/examples/mask_rcnn.json_loss.png)
 ![image](https://github.com/1023280072/visualize_for_mmdetection/blob/main/examples/mask_rcnn.json_map.png)
 ## solov2
 ![image](https://github.com/1023280072/visualize_for_mmdetection/blob/main/examples/solov2.json_loss.png)
