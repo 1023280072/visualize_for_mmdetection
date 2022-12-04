@@ -1,5 +1,4 @@
-# 用于mmdetection的yolov3模型输出json文件的可视化
-# 如果是其他模型，或许只更改self.loss_name变量就可使用？（简单猜测，作者并没有去尝试）
+# 用于mmdetection的yolact模型输出json文件的可视化
 
 import glob
 import json
@@ -104,6 +103,7 @@ class visualize_mmdetection():
         plt.savefig((self.path + '_map.png'))
 
 if __name__ == '__main__':
+    # 这个地方可能需要修改
     jsons_path = './work_dirs/yolact_r50_1x8_coco/*.json'
     json_path =  glob.glob(jsons_path)[0]
     x = visualize_mmdetection(json_path)
